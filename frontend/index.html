@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Study Buddy</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📚 AI Study Buddy</h1>
+    <p class="subtitle">Ask any question, get instant help</p>
+
+    <label for="subject">Subject</label>
+    <select id="subject">
+      <option value="Java">Java</option>
+      <option value="DSA">Data Structures & Algorithms</option>
+      <option value="Web Development">Web Development</option>
+      <option value="Python">Python</option>
+      <option value="Other">Other (type below)</option>
+    </select>
+
+    <input type="text" id="customSubject" placeholder="Type your subject" class="hidden">
+
+    <label for="question">Your Question</label>
+    <textarea id="question" rows="3" placeholder="e.g. Explain recursion with an example"></textarea>
+
+    <button id="askBtn">Ask AI</button>
+
+    <div id="answerBox" class="answer-box hidden">
+      <h3>Answer</h3>
+      <p id="answerText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
