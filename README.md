@@ -16,3 +16,21 @@ An AI-powered chatbot that helps students get instant answers to subject-related
 - **AI:** Groq API (Llama 3.1)
 
 ## Project Structure
+ai-student-qa/
+
+├── backend/
+
+│   ├── server.js
+
+│   ├── package.json
+
+│   └── .env (not included - see setup)
+
+└── frontend/
+
+├── index.html
+
+├── style.css
+
+
+└── script.js
